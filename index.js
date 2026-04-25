@@ -13,7 +13,7 @@ args.forEach((userArray) => {
 });
 
 // Add today's date in M/d/yyyy format
-combinedObject.merge_date = new date ().toString ("M/d/yyyy");
+combinedObject.merge_date = new Date ().toString ("M/d/yyyy");
 
 // Return the combined object
 return combinedObject;
